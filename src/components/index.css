@@ -9,6 +9,10 @@
   pointer-events: none;
 }
 
+.Crabs {
+  margin: 2rem 0 2rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
