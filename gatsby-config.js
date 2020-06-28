@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `TALOR LOVES CRABS!`,
+    title: `TAYLOR LOVES CRABS!`,
     description: `Taylor Loves Crabs!`,
     author: `@gatsbyjs`,
   },
