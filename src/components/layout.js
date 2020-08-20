@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import logo from "../images/logo.png"
 import Header from "./header"
 import "./layout.css"
 
@@ -32,9 +32,18 @@ const Layout = ({ children }) => {
             textAlign: "center",
           }}
         >
-          © {new Date().getFullYear()}, Built by
+          © {new Date().getFullYear()}, Site crafted by
           {` `}
-          <a href="https://www.vincegrilli.dev">Vince Grilli</a>
+          <a href="https://www.builttocode.dev">
+            <img
+              style={{
+                marginBottom: `-0.35rem`,
+                maxWidth: `5rem`,
+              }}
+              src={logo}
+              alt="Built to Code"
+            />
+          </a>
         </footer>
       </div>
     </>
